@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: Getting Started (1.20+)
+  title: 始めよう (1.20.1 +)
   position: 10
 ---
 
 <div class="notification is-info">
-  The following information only applies to Applied Energistics 2 in Minecraft 1.20 and newer.
+　この情報はApplied Energistics 2 (Minecraft 1.20.1)以降のみに適応されます。
 </div>
 
 # Getting Started
@@ -16,16 +16,16 @@ navigation:
   <ImportStructure src="assets/assemblies/meteor_interior.snbt" />
 </GameScene>
 
-To get started with Applied Energistics 2, one must first find a [meteorite](ae2-mechanics/meteorites.md). These are fairly common and tend to leave massive holes in the terrain, so you've probably encountered one in your travels.
-If you haven't, you can craft a <ItemLink id="meteorite_compass" />, which will point toward the nearest <ItemLink id="mysterious_cube" />.
+Applied Energisticsを始めるには、[隕石](ae2-mechanics/meteorites.md)を見つける必要があります。よくあり、地形に大きな変化が見られるため、旅の途中で見つけられるかもしれません。
+もし見つけられなくても、最寄りの<ItemLink id="meteorite_compass" />を指す、<ItemLink id="meteorite_compass" />をクラフトできます。
 
-Once you have found a meteorite, mine into its center. You will find certus quartz clusters, certus quartz buds, [budding certus blocks](items-blocks-machines/budding_certus.md) of various types, and a Mysterious Cube in the center.
+隕石を見つけたら、中央を掘ってみましょう。ケルタスクォーツとケルタスクォーツの芽、さまざまな種類の[芽生えたケルタスクォーツブロック](items-blocks-machines/budding_certus.md)、そして中央にある不思議なキューブが見つかるでしょう。
 
-Mine the certus quartz clusters and any certus quartz blocks you find. You can also pick up the budding certus blocks, but without silk touch they will degrade by 1 tier.
+ケルタスクォーツとケルタスクォーツブロックを掘りましょう。芽生えたケルタスクォーツブロックも掘るとよいですが、シルクタッチがないと1ティア下がってしまいます。
 
-Do not break any flawless budding certus, as even with silk touch they will degrade to flawed budding certus, and it is impossible to repair them back to flawless.
+完璧なケルタスクォーツブロックは破壊しないでください。たとえシルクタッチで破壊しても必ず1ティア下がります。そして完璧なケルタスクォーツブロックに戻す手段はありません。
 
-Also mine the Mysterious Cube in the center of the meteorite to gain all 4 inscriber presses.
+そして不思議なキューブを破壊して4つ(すべて)の金型を得ましょう。
 
 ## Growing Certus Quartz
 
