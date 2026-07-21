@@ -8,9 +8,9 @@ navigation:
 　この情報はApplied Energistics 2 (Minecraft 1.20.1)以降のみに適応されます。
 </div>
 
-# Getting Started
+# 始めよう
 
-## Getting The Initial Materials)
+## 物資を集めよう
 
 <GameScene zoom="4" background="transparent">
   <ImportStructure src="assets/assemblies/meteor_interior.snbt" />
