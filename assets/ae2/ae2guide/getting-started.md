@@ -27,25 +27,26 @@ Applied Energisticsを始めるには、[隕石](ae2-mechanics/meteorites.md)を
 
 そして不思議なキューブを破壊して4つ(すべて)の金型を得ましょう。
 
-## Growing Certus Quartz
+## ケルタスクォーツを成長させよう
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="assets/assemblies/budding_certus_1.snbt" />
 </GameScene>
 
-Certus quartz buds will sprout from [budding certus blocks](items-blocks-machines/budding_certus.md), similar to amethyst. If you break a bud that is not finished
-growing, it will drop one <ItemLink id="certus_quartz_dust" />, unchanged by fortune. If you break a fully grown cluster, it will drop four
-<ItemLink id="certus_quartz_crystal" />s, and fortune will increase this number.
+ ケルタスクォーツは、[芽生えたケルタスクォーツブロック](items-blocks-machines/budding_certus.md)からアメジストのように芽生えます。成長する前に破壊した場合、
+<ItemLink id="certus_quartz_dust" />をドロップしますが、運が良ければ変化しません。もし成長しきった結晶を破壊したら、
+<ItemLink id="certus_quartz_crystal" />がドロップします。確率でドロップする数が変化します。
 
-There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged.
+ケルタスクォーツブロックには4つの段階があります。
+完璧な、傷ついた、角のかけた、壊れかけ
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="assets/assemblies/budding_blocks.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into
-a plain certus quartz block. They can be repaired (and new budding blocks created) by throwing the budding block (or a
+ケルタスクォーツの芽は成長し、「ケルタスクォーツブロック」になるまで、確率でブロックは1ティア低下します。
+They can be repaired (and new budding blocks created) by throwing the budding block (or a
 certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
 
 <RecipeFor id="damaged_budding_quartz" />
