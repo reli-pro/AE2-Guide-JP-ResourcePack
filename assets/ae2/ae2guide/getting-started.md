@@ -46,26 +46,26 @@ Applied Energisticsを始めるには、[隕石](ae2-mechanics/meteorites.md)を
 </GameScene>
 
 ケルタスクォーツの芽は成長し、「ケルタスクォーツブロック」になるまで、確率でブロックは1ティア低下します。
-They can be repaired (and new budding blocks created) by throwing the budding block (or a
-certus quartz block) in water with one or more <ItemLink id="charged_certus_quartz_crystal" />.
+<ItemLink id="charged_certus_quartz_crystal" />といっしょにケルタスクォーツブロックを水の中に投げると、ケルタスクォーツブロックを修復することができます。
 
 <RecipeFor id="damaged_budding_quartz" />
 
-Flawless budding certus blocks will not degrade and will generate certus infinitely. However they cannot be crafted or moved
-with a pickaxe, even with silk touch. (they *can* be moved with [spatial storage](ae2-mechanics/spatial-io.md) though)
+完璧なケルタスクォーツはティアが下がらないので無限にケルタスクォーツを生成します。しかしながらクラフトできませんし、シルクタッチを使っても移動できません。
+([spatial storage](ae2-mechanics/spatial-io.md)を使えば移動できます)
 
-By themselves, certus quartz buds grow very slowly. Luckily the <ItemLink id="growth_accelerator" /> massively
-accelerates this process when placed adjacent to the budding block. You should build a few of these as your first priority.
+これらのブロックはゆっくりとケルタスクォーツの芽を成長させます。
+<ItemLink id="growth_accelerator" />を成長しているケルタスクォーツブロックの隣に置いて使用使用することで、ケルタスクォーツの成長を加速できます。
+初めにいくつか作っておくと良いでしょう。
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="assets/assemblies/budding_certus_2.snbt" />
 <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-If you don't have enough quartz to also make an <ItemLink id="energy_acceptor" /> or <ItemLink id="vibration_chamber" />,
-you can make a <ItemLink id="crank" /> and stick it on the end of your accelerator.
+<ItemLink id="energy_acceptor" />または<ItemLink id="vibration_chamber" />を作るための十分なケルタスクォーツがない場合、
+<ItemLink id="crank" />を作り、成長加速器に取り付けてください
 
-Harvesting the certus automatically is [described here](example-setups/simple-certus-farm.md).
+ケルタスクォーツの自動化については[このページ](example-setups/simple-certus-farm.md)を参照してください
 
 ## A Quick Aside on Fluix
 
