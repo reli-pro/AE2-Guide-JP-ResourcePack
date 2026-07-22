@@ -67,11 +67,11 @@ Applied Energisticsを始めるには、[隕石](ae2-mechanics/meteorites.md)を
 
 ケルタスクォーツの自動化については[このページ](example-setups/simple-certus-farm.md)を参照してください
 
-## A Quick Aside on Fluix
+## フルーシュに水晶についての補足
 
-Another material you will need is Fluix, which you have already encountered in making growth accelerators. It is made by throwing charged certus, redstone, and nether quartz in water. Doing this automatically is "left as an exercise for the reader."
+他の物質として、成長加速器を作成するときにも使用した「フルーシュの水晶」が必要です。チャージ済みのケルタスクォーツの水晶、レッドストーン、ネザークォーツを水に投げ入れることで作成できます。これを自動化する方法は、あえて述べないでおきます。"
 
-The <ItemLink id="charger" /> is required to produce <ItemLink id="charged_certus_quartz_crystal" />., if you haven't made one already.
+<ItemLink id="charger" />は、<ItemLink id="charged_certus_quartz_crystal" />を作成するために必要です。作っておきましょう。
 
 ## Inscribing Some Processors
 
