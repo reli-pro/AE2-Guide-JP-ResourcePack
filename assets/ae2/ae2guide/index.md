@@ -3,9 +3,6 @@ navigation:
   title: もくじ
   position: 0
 ---
-
-![Logo](assets/logo.png)
-
 # Applied Energistics 2とは？
 
 # このガイドの使い方
