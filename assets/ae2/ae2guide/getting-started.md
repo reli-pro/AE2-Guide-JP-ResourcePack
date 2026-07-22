@@ -51,7 +51,7 @@ Applied Energisticsを始めるには、[隕石](ae2-mechanics/meteorites.md)を
 <RecipeFor id="damaged_budding_quartz" />
 
 完璧なケルタスクォーツはティアが下がらないので無限にケルタスクォーツを生成します。しかしながらクラフトできませんし、シルクタッチを使っても移動できません。
-([spatial storage](ae2-mechanics/spatial-io.md)を使えば移動できます)
+([空間ストレージ](ae2-mechanics/spatial-io.md)を使えば移動できます)
 
 これらのブロックはゆっくりとケルタスクォーツの芽を成長させます。
 <ItemLink id="growth_accelerator" />を成長しているケルタスクォーツブロックの隣に置いて使用使用することで、ケルタスクォーツの成長を加速できます。
